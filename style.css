@@ -1,6 +1,7 @@
 html {
     height: 100%;
     background-attachment: fixed;
+    /* Complementary color palett: https://adobe.ly/2KbLpwp */
     background: linear-gradient(to bottom, #cc1910, #00863a);
     background-repeat: no-repeat;
 }
@@ -35,12 +36,12 @@ header {
 
 a {
     text-decoration: none;
-    color: #232323;
+    color: #FF756A;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: tomato;
+    color: #59CC8B;
 }
 
 #menuToggle {
@@ -96,7 +97,6 @@ a:hover {
 #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
 }
 
 /* But let's hide the middle one. */
