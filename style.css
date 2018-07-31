@@ -22,10 +22,6 @@ header {
     justify-self: end;
 }
 
-* {
-    grid-gap: 1em;
-}
-
 /*
 * CSS Hamburger fold-out menu
 * Copied from: https://codepen.io/erikterwan/pen/EVzeRP/
