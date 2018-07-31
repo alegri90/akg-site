@@ -2,12 +2,40 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>AKG Rengjøring AS</title>
     </head>
     <body>
         <header>
-            <img class="logo" src="img/logo_with_glare_export_.png" width="70%"/>
-        </header>       
+            <!--
+                CSS Hamburger fold-out menu  
+                Copied from: https://codepen.io/erikterwan/pen/EVzeRP/
+                License: MIT License
+                Copyright 2015 Erik Terwan
+            -->
+            <nav role="navigation" class="navigator">
+                <div id="menuToggle">
+                    <!-- A fake and hidden checkbox to act as trigger for clicks -->
+                    <input type="checkbox" />
+                    
+                    <!-- It takes three spans to make a hamburger, lol -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <ul id="menu">
+                        <a href="#"><li>Nyheter</li></a>
+                        <a href="#"><li>Om Firma</li></a>
+                        <a href="#"><li>Kontaktinfo</li></a>
+                        <a href="#"><li>Tjenester</li></a>
+                        <a href="#"><li>Produkter</li></a>
+                        <a href="#"><li>Referanser</li></a>
+                        <a href="#"><li>Liftutleie</li></a>
+                        <a href="#"><li>Galleri</li></a>
+                    </ul>
+                </div>
+            </nav>  
+            <img class="logo" src="img/logo_with_glare_export_.png" width="70%" />
+        </header>
     </body>
 </html>
