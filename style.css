@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #cc1910, #00863a);
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 100%;
+    margin:0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+    grid-column: 2/4;
+    justify-self: end;
+}
